@@ -7,11 +7,11 @@ function ends_in_3(num)
    return (num % 10) == 3
 end
 
-print( 'ends_in_3() tests' )
-print( '33 ends in 3: ', ends_in_3(33) )
-print( '45 ends in 3: ', ends_in_3(45) )
-print( ' 3 ends in 3: ', ends_in_3(3)  )
-print( ' 0 ends in 3: ', ends_in_3(0)  )
+print('ends_in_3() tests')
+print('33 ends in 3: ', ends_in_3(33))
+print('45 ends in 3: ', ends_in_3(45))
+print(' 3 ends in 3: ', ends_in_3(3))
+print(' 0 ends in 3: ', ends_in_3(0))
 print()
 
 -- is_prime
@@ -35,11 +35,11 @@ function is_prime(num)
    return true
 end
 
-print( 'is_prime() tests' )
-print( ' 2 is prime: ', is_prime(2) )
-print( '11 is prime: ', is_prime(11) )
-print( '12 is prime: ', is_prime(12) )
-print( ' 4 is prime: ', is_prime(4) )
+print('is_prime() tests')
+print(' 2 is prime: ', is_prime(2))
+print('11 is prime: ', is_prime(11))
+print('12 is prime: ', is_prime(12))
+print(' 4 is prime: ', is_prime(4))
 print()
 
 function first_n_primes_ending_in_3(n)
