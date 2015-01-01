@@ -1,4 +1,4 @@
-#!/usr/local/bin/lua
+#!/usr/bin/env lua
 
 -- ends_in_3
 -- returns true or false depending on whether 'num' ends in 3
