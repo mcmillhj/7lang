@@ -2,8 +2,8 @@ Exercises from "Seven More Languages in Seven Weeks":
 
 1. Lua
    * Day1 : DONE
-   * Day2 : IN PROGRESS
-   * Day3 : TODO
+   * Day2 : DONE
+   * Day3 : IN PROGRESS
 2. Factor
    * Day1 : TODO
    * Day2 : TODO
