@@ -3,7 +3,6 @@
 function retry(count, body)
    local tries = 1
    while tries ~= count do
-      print("TRY# " .. tries)
       local _,result = coroutine.resume(coroutine.create(body))
 
       if type(result) ~= "string" then
@@ -23,8 +22,9 @@ end
 retry(
    5,
    function()
-      if math.random() < 0.5 then
-         coroutine.yield("ERROR")
+      local rand = math.random()
+      if rand > 0.2 then
+         coroutine.yield("Something bad happened")
       end
    end
 )
