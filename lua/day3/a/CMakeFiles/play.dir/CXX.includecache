@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hunter/Dropbox/git/7lang/lua/day3/a/play.cpp
+lua.h
+/Users/hunter/Dropbox/git/7lang/lua/day3/a/lua.h
+lauxlib.h
+/Users/hunter/Dropbox/git/7lang/lua/day3/a/lauxlib.h
+lualib.h
+/Users/hunter/Dropbox/git/7lang/lua/day3/a/lualib.h
+RtMidi.h
+/Users/hunter/Dropbox/git/7lang/lua/day3/a/RtMidi.h
+
